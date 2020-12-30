@@ -1,5 +1,12 @@
 ## Simulate an AXI4-Lite Peripheral using VIvado Simulator
 
+Peripheral interface:|
+------------ | -------------
+Type:| Lite
+Mode:| Slave
+Data width (Bits):| 32
+Number of registers:| 4
+
 You can use the [editor on GitHub](https://github.com/TsafasN/AXI4_lite-Simulation-Tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
