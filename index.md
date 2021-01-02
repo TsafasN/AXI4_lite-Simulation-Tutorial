@@ -23,8 +23,13 @@ Mode:| Slave
 Data width (Bits):| 32
 Number of registers:| 4
 
+![Image 1. Create AXI4 Peripheral](https://raw.githubusercontent.com/TsafasN/AXI4_lite-Simulation-Tutorial/gh-pages/Create_Peripheral2.PNG)
 
-#### Step 2: Create an AXI4 IP testbench
+#### Step 2: Understand the AXI4 transaction handshake mechanism
+
+For simulating the AXI bus, your tasks will need to drive the address, data, and response lines relevant to the transaction. The task will also need to respond to the handhsaking signals from the AXI4-lite slave (in this case the LED IPcore).
+
+First step in writing a AXI4 testbench is to define all the signals used by the AXI4-lite interface. Since our Task will be controlling the Master signals, those should be set as reg type. The slave signals will be driven by our IPcore and should be wire's. Next, instantiate your IP core, making the appropriate port connections to the previously defined AXI4-lite signals.
 
 #### Step 3: Create an AXI4 IP testbench
 
