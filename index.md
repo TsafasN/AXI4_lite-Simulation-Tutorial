@@ -12,7 +12,7 @@ It needs to be generated in fabric as a memory sampling certain signals with
   * Becuase of this, it’s best practice to write a test bench to simulate IP cores before implementation.
 Simulation of an AXI4 IPcore requires emulating the signals on the AXI bus for write and read transactions.
 
-## Create an AXI4 IP testbench
+#### Step 1: Create an AXI4 IP testbench
 
 ![Image](https://raw.githubusercontent.com/TsafasN/AXI4_lite-Simulation-Tutorial/gh-pages/Create_Peripheral.PNG)
 
