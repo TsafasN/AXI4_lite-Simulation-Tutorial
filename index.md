@@ -14,6 +14,10 @@ Simulation of an AXI4 IPcore requires emulating the signals on the AXI bus for w
 
 Creating a AXI4 IP testbench and running simulation.
 
+![Image of Yaktocat](https://github.com/TsafasN/AXI4_lite-Simulation-Tutorial/blob/gh-pages/Create_Peripheral.PNG)
+
+
+
 
 Peripheral interface:|
 ------------ | -------------
