@@ -1,0 +1,41 @@
+The Integrated Logic Analyzer is a very powerful tool for debugging hardware.
+
+Becuase of this, it’s best practice to write a test bench to simulate IP cores before implementation.
+Simulation of an AXI4 IPcore requires emulating the signals on the AXI bus for write and read transactions.
+
+Creating a AXI4 IP testbench and running simulation.
+
+
+Chapter 1: Project Preparation
+
+Step 1: Create new Project in Vivado
+
+Step 2: Create and Package new IP - Create a new AXI4 peripheral - Edit in IP Packager
+
+
+Peripheral interface:|
+------------ | -------------
+Type:| Lite
+Mode:| Slave
+Data width (Bits):| 32
+Number of registers:| 4
+
+
+Chapter 2: Test Strategy
+
+For our purpose we would like to simulate writing values, via the AXI bus, to the slave register
+
+Write a testbench where the AXI4 signals are manipulated in a reusable sequence like a function that takes an argument and drives signals accordingly.
+
+again and again in the main body of code
+
+a single reusable sequence of code that takes an argument and drives signals accordingly.
+
+
+First step in writing a AXI4 testbench is to define all the signals used by the AXI4-lite interface.
+
+Step 4:
+
+Step 5:
+
+Step 6:
