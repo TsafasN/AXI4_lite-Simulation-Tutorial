@@ -37,9 +37,6 @@ First step in writing a AXI4 testbench is to define all the signals used by the 
 
 #### Step 5: Create an AXI4 IP testbench
 
-![Image](https://raw.githubusercontent.com/TsafasN/AXI4_lite-Simulation-Tutorial/gh-pages/Create_Peripheral2.PNG)
-
-
 
 
 
