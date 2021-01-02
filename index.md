@@ -15,12 +15,14 @@ Simulation of an AXI4 IPcore requires emulating the signals on the AXI bus for w
 
 #### Step 1: Create an AXI4 IP
 
+
 Peripheral interface:|
 ------------ | -------------
 Type:| Lite
 Mode:| Slave
 Data width (Bits):| 32
 Number of registers:| 4
+
 
 #### Step 2: Create an AXI4 IP testbench
 
