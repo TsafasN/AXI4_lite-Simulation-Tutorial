@@ -14,6 +14,14 @@ Simulation of an AXI4 IPcore requires emulating the signals on the AXI bus for w
 
 #### Step 1: Create an AXI4 IP testbench
 
+#### Step 2: Create an AXI4 IP testbench
+
+#### Step 3: Create an AXI4 IP testbench
+
+#### Step 4: Create an AXI4 IP testbench
+
+#### Step 5: Create an AXI4 IP testbench
+
 ![Image](https://raw.githubusercontent.com/TsafasN/AXI4_lite-Simulation-Tutorial/gh-pages/Create_Peripheral2.PNG)
 
 
