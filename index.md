@@ -43,9 +43,9 @@ First step in writing a AXI4 testbench is to define all the signals used by the 
 All five transaction channels use the same VALID/READY handshake process to transfer address, data, and control information.
 Handshake occurs as described in the steps below(in any channel)
 ```
-* The source generates the VALID signal to indicate when the address, data or control information is available.
-* The destination generates the READY signal to indicate that it can accept the information.
-* Transfer occurs only when both the VALID and READY signals are HIGH.
+1. The source generates the VALID signal to indicate when the address, data or control information is available.
+1. The destination generates the READY signal to indicate that it can accept the information.
+1. Transfer occurs only when both the VALID and READY signals are HIGH.
 ```    
  When are these signals asserted/de-asserted?
 ```
