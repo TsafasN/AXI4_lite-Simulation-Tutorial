@@ -54,10 +54,10 @@ Handshake occurs as described in the steps below(in any channel)
     * VALID must remain asserted until the rising clock edge after READY is asserted.
 
 Default values : 
-
-> VALID must be LOW, 
-> READY is recommended to be HIGH.
-
+```
+VALID must be LOW, 
+READY is recommended to be HIGH.
+```
 
 
 #### Step 3: Create a transaction mechanism
