@@ -32,13 +32,13 @@ For simulating the AXI bus, your tasks will need to drive the address, data, and
 First step in writing a AXI4 testbench is to define all the signals used by the AXI4-lite interface. Since our Task will be controlling the Master signals, those should be set as reg type. The slave signals will be driven by our IPcore and should be wire's. Next, instantiate your IP core, making the appropriate port connections to the previously defined AXI4-lite signals.
 
 
-Interface channels:|
------------- | -------------
-Read Address channel| (AR)
-Read Data channel| (R)
-Write Address channel| (AW)
-Write Data channel| (W)
-Write Response channel| (B)
+|Interface channels:| |
+| :---: | :---: |
+| Read Address channel | (AR) |
+| Read Data channel | (R) |
+| Write Address channel | (AW) |
+| Write Data channel | (W) |
+| Write Response channel | (B) |
 
 
 
