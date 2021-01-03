@@ -16,14 +16,14 @@ Simulation of an AXI4 IPcore requires emulating the signals on the AXI bus for w
 #### Step 1: Create an AXI4 IP
 
 
-Peripheral interface:|
------------- | -------------
-Type:| Lite
-Mode:| Slave
-Data width (Bits):| 32
-Number of registers:| 4
+| Peripheral interface:| |
+| ------------ | ------------- |
+| Type:| Lite |
+| Mode:| Slave |
+| Data width (Bits):| 32 |
+| Number of registers:| 4 |
 
-![Image 1. Create AXI4 Peripheral](https://raw.githubusercontent.com/TsafasN/AXI4_lite-Simulation-Tutorial/gh-pages/Create_Peripheral2.PNG)
+[Image 1. Create AXI4 Peripheral](https://raw.githubusercontent.com/TsafasN/AXI4_lite-Simulation-Tutorial/gh-pages/Create_Peripheral2.PNG)
 
 #### Step 2: Understand the AXI4 transaction handshake mechanism
 
