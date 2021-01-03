@@ -55,8 +55,8 @@ Handshake occurs as described in the steps below(in any channel)
 
 Default values : 
 
-    * VALID must be LOW, 
-    * READY is recommended to be HIGH.
+> VALID must be LOW, 
+> READY is recommended to be HIGH.
 
 
 
