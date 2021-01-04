@@ -41,12 +41,24 @@ First step in writing a AXI4 testbench is to define all the signals used by the 
 | Write Response channel | (B) |
 
 All five transaction channels use the same VALID/READY handshake process to transfer address, data, and control information.
+
 Handshake occurs as described in the steps below(in any channel)
+
+
+
 ```
 1. The source generates the VALID signal to indicate when the address, data or control information is available.
-1. The destination generates the READY signal to indicate that it can accept the information.
-1. Transfer occurs only when both the VALID and READY signals are HIGH.
+2. The destination generates the READY signal to indicate that it can accept the information.
+3. Transfer occurs only when both the VALID and READY signals are HIGH.
+
+A master places an address on the AWADDR line and asserts a valid signal. 
+The slave asserts that it's ready to receive the address and the address is transferred.
+
+The master places data on the bus and asserts the valid signal (WVALID). 
+When the slave is ready, it asserts WREADY and data transfer begins.
 ```    
+
+
  When are these signals asserted/de-asserted?
 ```
 - VALID signal is only asserted when master/slave(Read data channel) drives valid address and control information or data(Read data channel).
