@@ -44,9 +44,6 @@ All five transaction channels use the same VALID/READY handshake process to tran
 
 Handshake occurs as described in the steps below(in any channel)
 
-
-
-```
 1. The source generates the VALID signal to indicate when the address, data or control information is available.
 2. The destination generates the READY signal to indicate that it can accept the information.
 3. Transfer occurs only when both the VALID and READY signals are HIGH.
@@ -55,21 +52,16 @@ A master places an address on the AWADDR line and asserts a valid signal.
 The slave asserts that it's ready to receive the address and the address is transferred.
 
 The master places data on the bus and asserts the valid signal (WVALID). 
-When the slave is ready, it asserts WREADY and data transfer begins.
-```    
+When the slave is ready, it asserts WREADY and data transfer begins.   
 
 
  When are these signals asserted/de-asserted?
-```
+
+
 - VALID signal is only asserted when master/slave(Read data channel) drives valid address and control information or data(Read data channel).
 - Whenever master/slave is ready to accept information, it will assert READY.
 - VALID must remain asserted until the rising clock edge after READY is asserted.
-```
-Default values : 
-```
-VALID must be LOW, 
-READY is recommended to be HIGH.
-```
+
 
 
 #### Step 3: Create a transaction mechanism
