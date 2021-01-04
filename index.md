@@ -48,7 +48,7 @@ Handshake occurs as described in the steps below(in any channel)
 2. The destination generates the READY signal to indicate that it can accept the information.
 3. Transfer occurs only when both the VALID and READY signals are HIGH.
 
-###### Write transfer eg.
+##### Write transfer eg.
 ```
 A master places an address on the AWADDR line and asserts a valid signal. 
 The slave asserts that it's ready to receive the address and the address is transferred.
